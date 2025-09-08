@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "azure-carbon-tracker"
 version = "0.1.0"
-description = "Azure carbon tracking via Cost Management API"
+description = "Azure carbon tracking via Cost Management API."
 authors = [{name = "Boris Ruf"}]
 dependencies = [
     "pandas",
