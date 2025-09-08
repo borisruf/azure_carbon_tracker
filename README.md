@@ -11,9 +11,9 @@ pip install azure_carbon_tracker
 
 ## Usage
 
-Make sure to [login to your Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest) first. You can then use the library as follows.
+Make sure to [login to your Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest) first. You can then use the library as follows:
 
-__Sample code:__
+__Sample code__
 ```python
 from azure_carbon_tracker import get_carbon_emissions
 
@@ -27,7 +27,7 @@ df = get_carbon_emissions(
 
 
 
-__Sample output:__
+__Sample output__
 ```bash
 print(df.head())
 
@@ -77,7 +77,7 @@ df = get_carbon_emissions(
 )
 ```
 
-You can also query specific prices or create an update pricing CSV. 
+You can also query specific prices or create an updated pricing CSV. 
 
 ```python
 from azure_carbon_tracker import query_price, create_pricing_table
