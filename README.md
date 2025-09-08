@@ -62,7 +62,7 @@ month                         azure_name location  total_cost_usd  \
 
 ### Customization
 
-Default CSVs for pricing, model mapping, carbon models, and emission factors are [included in the package](https://github.com/borisruf/azure-carbon-tracker/tree/main/azure_carbon_tracker/data). You can overwrite them by passing your own file paths to the relevant functions:
+Default CSVs for pricing, model mapping, carbon models, and emission factors are [included in the package](https://github.com/borisruf/azure_carbon_tracker/tree/main/azure_carbon_tracker/data). You can overwrite them by passing your own file paths to the relevant functions:
 
 ```python
 df = get_carbon_emissions(
