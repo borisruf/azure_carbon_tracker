@@ -1,5 +1,5 @@
 # Azure Carbon Tracker
-The Azure Carbon Optimization Dashboard currently does not include the OpenAI service. This Python library uses the [Cost Management API](https://learn.microsoft.com/en-us/rest/api/cost-management/) and the [Retail Prices API](https://learn.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices) to obtain token consumption data which it enriches with AI model carbon scenarios and region emission factors to estimate the missing information.
+The Azure Carbon Optimization Dashboard currently does not include the OpenAI service. This Python library uses the [Cost Management API](https://learn.microsoft.com/en-us/rest/api/cost-management/) and the [Retail Prices API](https://learn.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices) to obtain token consumption data which it enriches with [AI model carbon scenarios](https://github.com/borisruf/carbon-footprint-modeling-tool?tab=readme-ov-file#ai-model-inferences) and region emission factors to estimate the missing information.
 
 ## Installation
 
@@ -62,7 +62,7 @@ month                         azure_name location  total_cost_usd  \
 
 ### Customization
 
-Default CSVs for pricing, model mapping, carbon models, and emission factors are included in the package. You can overwrite them by passing your own file paths to the relevant functions:
+Default CSVs for pricing, model mapping, carbon models, and emission factors are [included in the package](https://github.com/borisruf/azure-carbon-tracker/tree/main/azure_carbon_tracker/data). You can overwrite them by passing your own file paths to the relevant functions:
 
 ```python
 df = get_carbon_emissions(
