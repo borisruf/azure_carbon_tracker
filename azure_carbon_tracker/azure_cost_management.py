@@ -168,10 +168,10 @@ def get_carbon_emissions(
     resource_group,
     start_date,
     end_date,
-    pricing_path='data/pricing.csv',
-    model_mapping_path='data/model_mapping.csv',
-    carbon_models_path='data/carbon_models.csv',
-    emission_factors_path='data/emission_factors.csv'
+    pricing_path=None,
+    model_mapping_path=None,
+    carbon_models_path=None,
+    emission_factors_path=None
 ):
     """
     Returns a DataFrame with columns:
