@@ -5,6 +5,7 @@ setup(
     version="0.3.0",
     description="Azure carbon tracking via Cost Management API.",
     author="Boris Ruf",
+    url='https://github.com/borisruf/azure_carbon_tracker',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

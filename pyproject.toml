@@ -7,6 +7,7 @@ name = "azure-carbon-tracker"
 version = "0.3.0"
 description = "Azure carbon tracking via Cost Management API."
 authors = [{name = "Boris Ruf"}]
+urls = { "Homepage" = "https://github.com/borisruf/azure_carbon_tracker" }
 dependencies = [
     "pandas",
     "requests",
