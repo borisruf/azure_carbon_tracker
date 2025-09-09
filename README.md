@@ -1,6 +1,10 @@
 # Azure Carbon Tracker
 The Azure Carbon Optimization Dashboard currently does not include the OpenAI service. This Python library uses the [Cost Management API](https://learn.microsoft.com/en-us/rest/api/cost-management/) and the [Retail Prices API](https://learn.microsoft.com/en-us/rest/api/cost-management/retail-prices/azure-retail-prices) to obtain token consumption data which it enriches with [AI model carbon scenarios](https://github.com/borisruf/carbon-footprint-modeling-tool?tab=readme-ov-file#ai-model-inferences) and region emission factors to estimate the missing information.
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/borisruf/azure_carbon_tracker/main/doc/graph.png" width=50% height=50%>
+</p>
+
 ## Installation
 
 To install the package, you can use `pip`, the Python package manager. Open a command line or terminal and run the following command:
